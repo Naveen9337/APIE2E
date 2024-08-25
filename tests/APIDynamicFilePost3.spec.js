@@ -2,7 +2,7 @@ import{test,expect} from '@playwright/test';
 //const staticJson = require('../Util/Staic.json');
 import {faker} from '@faker-js/faker';
 const { DateTime } = require('luxon');
-
+//Console.log("Add 1")
 
 
 test('Create POST API request using dynamic request body',async({request})=>{
